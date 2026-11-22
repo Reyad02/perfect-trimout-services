@@ -11,4 +11,4 @@ Allow: /
 User-agent: Claude-User
 Allow: /
 
-Sitemap: https://perfecttrimoutservices.com/sitemap.xml
+Sitemap: https://www.perfecttrimoutservices.com/sitemap.xml
