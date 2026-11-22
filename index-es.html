@@ -85,25 +85,173 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Perfect Trim Out Services",
-        "url": "https://perfecttrimoutservices.com/index-es.html",
-        "logo": "https://perfecttrimoutservices.com/assets/perfect-trim-out-services-logo.jpg",
-        "description": "Perfect Trim Out Services ofrece terminaci&oacute;n, reparaciones, renovaciones, terrazas, z&oacute;calos y apoyo para completar casas prefabricadas y modulares.",
-        "email": "pm@perfecttrimout.com",
-        "telephone": "+1-682-436-2881",
-        "areaServed": {
-          "@type": "Country",
-          "name": "United States"
-        },
-        "knowsAbout": [
-          "Terminacion de casas prefabricadas",
-          "Finalizaci&oacute;n de casas modulares",
-          "Reparaciones de casas prefabricadas",
-          "Renovaciones de casas prefabricadas",
-          "Instalacion de terrazas",
-          "Servicios de faldón para casa prefabricada",
-          "Servicios de finalizaci&oacute;n de viviendas"
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.perfecttrimoutservices.com/#website",
+            "url": "https://www.perfecttrimoutservices.com/",
+            "name": "Perfect Trim Out Services",
+            "inLanguage": ["en", "es"],
+            "publisher": {
+              "@id": "https://www.perfecttrimoutservices.com/#business"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.perfecttrimoutservices.com/index-es.html#webpage",
+            "url": "https://www.perfecttrimoutservices.com/index-es.html",
+            "name": "Servicios de terminación y reparación de casas prefabricadas | Perfect Trim Out",
+            "inLanguage": "es",
+            "isPartOf": {
+              "@id": "https://www.perfecttrimoutservices.com/#website"
+            },
+            "about": {
+              "@id": "https://www.perfecttrimoutservices.com/#business"
+            }
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://www.perfecttrimoutservices.com/#business",
+            "name": "Perfect Trim Out Services",
+            "legalName": "Perfect Trim Out Services LLC",
+            "url": "https://www.perfecttrimoutservices.com/",
+            "logo": "https://www.perfecttrimoutservices.com/assets/perfect-trim-out-services-logo.jpg",
+            "image": "https://www.perfecttrimoutservices.com/assets/social-preview.webp",
+            "description": "Perfect Trim Out Services ofrece terminación, reparaciones, renovaciones, terrazas, faldones y apoyo para completar casas prefabricadas y modulares en Estados Unidos y Canadá.",
+            "slogan": "Delivering a Perfect Experience, Building a Perfect Reputation.",
+            "email": "pm@perfecttrimout.com",
+            "telephone": "+1-682-436-2881",
+            "priceRange": "$$",
+            "areaServed": [
+              { "@type": "Country", "name": "Estados Unidos" },
+              { "@type": "Country", "name": "Canadá" }
+            ],
+            "knowsAbout": [
+              "Terminación de casas prefabricadas",
+              "Finalización de casas modulares",
+              "Reparaciones de casas prefabricadas",
+              "Renovaciones de casas prefabricadas",
+              "Instalación de terrazas",
+              "Servicios de faldones para casas prefabricadas",
+              "Servicios de finalización de viviendas"
+            ],
+            "audience": {
+              "@type": "BusinessAudience",
+              "audienceType": "Fabricantes, distribuidores, comunidades e inversionistas de casas prefabricadas y modulares"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/perfect-trim-out-services-070607345/",
+              "https://www.facebook.com/p/Perfect-Trim-Out-Services-61568503282182/"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "telephone": "+1-682-436-2881",
+              "email": "pm@perfecttrimout.com",
+              "availableLanguage": ["English", "Spanish"]
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Servicios para casas prefabricadas y modulares",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Paquetes de terminación para casas prefabricadas",
+                    "description": "Terminación de casas sencillas, dobles y triples con paneles VOG, paneles de yeso parciales o completos, incluyendo reparaciones de la línea de unión, pintura de retoque, pendientes asignados, limpieza profunda, documentación fotográfica y recorrido final."
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Visitas de servicio y reparaciones",
+                    "description": "Reparaciones interiores y exteriores para casas prefabricadas y modulares, incluyendo pisos, paneles de yeso, textura, pintura, puertas, ventanas, bañeras, revestimientos y parches de techo, documentadas con un informe de servicio del contratista."
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Renovaciones de casas",
+                    "description": "Renovaciones interiores y exteriores para reventa, alquiler o preparación de casas."
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Instalación de terrazas",
+                    "description": "Propuestas de terrazas específicas para cada proyecto, incluyendo escalones y descansos."
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Faldones para casas prefabricadas",
+                    "description": "Instalación de faldones y coordinación de acabados para casas prefabricadas."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.perfecttrimoutservices.com/index-es.html#faq",
+            "inLanguage": "es",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "¿Qué tipo de casas atiende Perfect Trim Out Services?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Atendemos casas prefabricadas y modulares después de la entrega, en una propiedad de cliente, centro de venta, exhibición o comunidad. Hay paquetes de terminación para casas sencillas y dobles con paneles VOG, paneles de yeso parciales y completos."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "¿Qué incluye un paquete de terminación?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "El trabajo aprobado puede incluir reparaciones de la línea de unión, molduras, pintura de retoque, ajustes de gabinetes y puertas, artículos sueltos enviados, pendientes asignados, limpieza profunda interior, revisión final de calidad, fotos del proyecto y recorrido de finalización. El trabajo exacto se confirma en el alcance aprobado."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "¿Pueden atender varios problemas en una sola visita de reparación?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sí. Envía la lista de problemas, habitación o ubicación, cantidades conocidas, fotos y resultado esperado. Las visitas pueden cubrir pisos, paneles de yeso y textura, pintura, puertas, marcos, zócalos, ventanas, herrajes, reparaciones de bañeras o revestimientos y parches de techo."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "¿Ofrecen terrazas, faldones para casa prefabricada y renovaciones?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sí, se gestionan mediante propuestas escritas específicas para cada proyecto. Ayuda incluir las dimensiones de la vivienda, largo y ancho de la terraza, altura, perímetro de faldones, materiales preferidos, escalones o descansos y fotos claras del sitio."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "¿Cómo se documenta la finalización del proyecto?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Las terminaciones usan la lista de recorrido asignada, fotos organizadas de antes, durante y después, y una lista de pendientes. Las visitas usan un informe de servicio del contratista."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "¿Está garantizada la fecha de finalización solicitada?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Una fecha solicitada ayuda a revisar la programación, pero no confirma una asignación. El tiempo se confirma después de revisar el alcance, la preparación del sitio, el acceso, los materiales y la disponibilidad del equipo."
+                }
+              }
+            ]
+          }
         ]
       }
     </script>
